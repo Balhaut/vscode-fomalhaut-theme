@@ -1,0 +1,44 @@
+{
+    "name": "vscode-fomalhaut-theme",
+    "displayName": "Fomalhaut Dark Theme",
+    "description": "Warm dark low-contrast theme",
+    "version": "0.0.1",
+    "publisher": "balhaut",
+    "author": {
+        "name": "balhaut"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.18.1"
+    },
+    "galleryBanner": {
+        "color": "#151920",
+        "theme": "dark"
+    },
+    "homepage": "https://marketplace.visualstudio.com/",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "clean",
+        "focused",
+        "vscode"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fomalhaut Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vscode-fomalhaut-theme.json"
+            }
+        ]
+    }
+}
