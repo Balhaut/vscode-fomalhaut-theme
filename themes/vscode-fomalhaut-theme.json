@@ -8,9 +8,11 @@
         "activityBarBadge.background": "#18000f",
         "activityBarBadge.foreground": "#bb9065",
         "button.background": "#18000f",
-        "contrastBorder": "#420423",
+        "contrastBorder": "#38003f",
+        "contrastActiveBorder": "#74073E",
         "dropdown.background": "#18000f",
         "dropdown.border": "#420423",
+        "dropdown.foreground": "#bb9065",
         "editor.background": "#13000c",
         "editor.findMatchBackground": "#11407E",
         "editor.findMatchHighlightBackground": "#2B5FD2",
@@ -76,6 +78,24 @@
         "tab.unfocusedActiveBorder": "#420423",
         "tab.inactiveBackground": "#13000c",
         "tab.inactiveForeground": "#bb9065",
+        "terminal.background": "#14010a",
+        "terminal.foreground": "#bb9065",
+        "terminal.ansiBlack": "#571043",
+        "terminal.ansiBlue": "#437aa6",
+        "terminal.ansiBrightBlack": "#663956",
+        "terminal.ansiBrightBlue": "#539eca",
+        "terminal.ansiBrightCyan": "#945972",
+        "terminal.ansiBrightGreen": "#859900",
+        "terminal.ansiBrightMagenta": "#904e5d",
+        "terminal.ansiBrightRed": "#a95317",
+        "terminal.ansiBrightWhite": "#aa8069",
+        "terminal.ansiBrightYellow": "#fe9900",
+        "terminal.ansiCyan": "#744659",
+        "terminal.ansiGreen": "#6b7610",
+        "terminal.ansiMagenta": "#804563",
+        "terminal.ansiRed": "#cb4b16",
+        "terminal.ansiWhite": "#8e6956",
+        "terminal.ansiYellow": "#e08700",
         "titleBar.activeBackground": "#13000c",
         "titleBar.activeForeground": "#bb9065",
         "titleBar.inactiveBackground": "#13000c",
@@ -110,13 +130,6 @@
             ],
             "settings": {
                 "foreground": "#a045e4"
-            }
-        },
-        {
-            "name": "HTML: Tag Names",
-            "scope": "entity.name.tag",
-            "settings": {
-                "foreground": "#b564ea"
             }
         },
         {
@@ -225,7 +238,8 @@
             "name": "Embedded Source",
             "scope": [
                 "string source",
-                "text source"
+                "text source",
+                "embedded.source"
             ],
             "settings": {
                 "background": "#000000"
@@ -276,7 +290,7 @@
                 "storage"
             ],
             "settings": {
-                "foreground": "#904e5d"
+                "foreground": "#e08700"
             }
         },
         {
